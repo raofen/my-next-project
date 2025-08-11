@@ -1,6 +1,6 @@
 // Menu
 
-"use client";
+"use client"; //クライアントコンポーネントを使うよ！
 
 import Link from "next/link";
 import Image from "next/image";

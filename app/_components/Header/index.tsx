@@ -3,6 +3,7 @@
 import Image from "next/image";
 import styles from "./index.module.css";
 import Link from "next/link";
+import Menu from "../Menu";
 
 export default function Header() {
   return (
@@ -10,6 +11,7 @@ export default function Header() {
       <Link href="/" className={styles.logoLink}>
         <Image src="/logo.svg" alt="SIMPLE ホーム" className={styles.logo} width={348} height={133} priority />
       </Link>
+      <Menu />
     </header>
   );
 }
